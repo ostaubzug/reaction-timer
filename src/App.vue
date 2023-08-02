@@ -3,14 +3,16 @@
     <section>
       <h1>Ninja Reaction Timer</h1>
       <button @click="start">play</button>
+      <BlockComponent />
     </section>
   </main>
 </template>
 
 <script>
+import BlockComponent from "./components/Block-component.vue";
 export default {
   name: "App",
-  components: {},
+  components: { BlockComponent },
   data() {
     return {
       isPlaying: false,

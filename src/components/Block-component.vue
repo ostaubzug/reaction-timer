@@ -3,7 +3,7 @@
 </template>
 <script>
 export default {
-  props: ["delay" ],
+  props: ["delay"],
 };
 </script>
 <style>
