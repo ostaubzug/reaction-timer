@@ -1,5 +1,9 @@
 <template>
-  <h1>Ninja Reaction Timer</h1>
+  <main class="container">
+    <section>
+      <h1>Ninja Reaction Timer</h1>
+    </section>
+  </main>
 </template>
 
 <script>
