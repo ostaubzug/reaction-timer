@@ -27,4 +27,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+</style>
